@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  Upload your resume, generate personalized interview questions, practice realistic interview rounds, and receive detailed AI-powered feedback to improve your interview performance.
+  Practice personalized technical and behavioral interviews, receive AI-generated feedback, analyze resumes, and track your preparation journey through a complete interview intelligence platform.
 </p>
 
 <p align="center">
@@ -20,175 +20,142 @@
 
 ---
 
-## 🎯 Overview
-
-AI Interview Platform is a full-stack AI-powered SaaS application that helps students and professionals prepare for technical and HR interviews through personalized mock interview experiences.
-
-Unlike traditional interview preparation tools that provide generic question sets, AI Interview Platform analyzes a candidate's resume and dynamically generates interview questions tailored to their skills, projects, technologies, and experience.
-
-The platform combines Artificial Intelligence, Resume Intelligence, Secure Authentication, Payment Integration, and Performance Analytics into a complete interview preparation ecosystem.
-
----
-
-## 📸 Screenshots
+## 📸 Product Showcase
 
 ### 🏠 Landing Page
 
-![Home](./client/assets/home.png)
+<p align="center">
+  <img src="./client/assets/home.png" width="95%" alt="Landing Page"/>
+</p>
+
+The landing page introduces the platform and provides users with a seamless starting point for AI-powered interview preparation.
+
+---
+
+### 📋 Resume Analysis & Interview Setup
+
+<p align="center">
+  <img src="./client/assets/resume_analyse.png" width="95%" alt="Resume Analysis"/>
+</p>
+
+The platform parses uploaded resumes, extracts projects, skills, and experience, and generates personalized interview questions tailored to the candidate's profile.
+
+---
 
 ### 🎤 AI Interview Session
 
-![Interview](./client/assets/interview.png)
+<p align="center">
+  <img src="./client/assets/interview.png" width="95%" alt="Interview Session"/>
+</p>
 
-### 📄 Resume Analysis
-
-![Resume Analysis](./client/assets/resume_analyse.png)
+The interview interface provides a realistic mock interview experience with dynamic questioning, voice interaction, timers, and performance evaluation.
 
 ---
 
-## ✨ Features
+## 🎯 Overview
+
+AI Interview Platform is a full-stack SaaS application designed to simulate real-world technical and HR interviews using Artificial Intelligence.
+
+Unlike traditional interview preparation tools that rely on static question banks, this platform analyzes a candidate's resume and dynamically generates interview questions based on skills, projects, technologies, and experience.
+
+The platform combines AI-powered question generation, resume intelligence, secure authentication, payment integration, and performance analytics into a complete interview preparation ecosystem.
+
+---
+
+## ✨ Key Features
 
 ### 📄 Resume Intelligence
 
-* PDF Resume Upload
-* Resume Parsing & Analysis
-* Skill Extraction
-* Project Identification
-* Experience Detection
-* Candidate Profiling
+* Upload resumes in PDF format
+* Automated resume parsing
+* Skill extraction and classification
+* Experience and project analysis
+* Candidate profile understanding
+* Context-aware interview generation
 
-### 🤖 AI Interview Generation
+### 🤖 AI-Powered Interview Generation
 
-* Resume-Aware Question Generation
-* Personalized Interview Sessions
-* Context-Aware Follow-Up Questions
-* Technical & HR Modes
-* Dynamic Difficulty Levels
-
-### 💻 Technical Interview Practice
-
-* Data Structures & Algorithms
-* Object-Oriented Programming
-* DBMS
-* Operating Systems
-* Computer Networks
-* System Design
-* Web Development
-
-### 💼 HR Interview Practice
-
-* Behavioral Questions
-* Leadership Assessment
-* Communication Evaluation
-* Team Collaboration Scenarios
-* Conflict Resolution Questions
-
-### 🧠 AI Feedback Engine
-
-* Interview Score Generation
-* Strength Analysis
-* Weakness Detection
-* Improvement Suggestions
-* Personalized Recommendations
-
-### 📊 Analytics Dashboard
-
-* Interview History
-* Performance Tracking
-* Progress Reports
-* Skill Analytics
-* Historical Comparison
-
-### 💳 SaaS Credit System
-
-* Credit-Based Interview Access
-* Usage Tracking
-* Premium Features
-* Razorpay Integration
-
-### 🔐 Authentication & Security
-
-* Google Authentication
-* Firebase Authentication
-* JWT Authorization
-* Protected Routes
-* Secure Sessions
-
----
-
-## 💡 Why This Project?
-
-Most interview preparation platforms provide generic questions that fail to reflect a candidate's actual skills and experiences.
-
-AI Interview Platform solves this problem by using Artificial Intelligence to understand a user's resume and generate highly personalized interview experiences tailored specifically to their profile.
-
-This provides a more realistic preparation environment, helping candidates improve confidence, communication skills, and technical knowledge before actual interviews.
-
----
-
-## 🔄 User Workflow
-
-```text
-Sign In
-   │
-   ▼
-Upload Resume
-   │
-   ▼
-Resume Analysis
-   │
-   ▼
-Interview Generation
-   │
-   ▼
-Mock Interview Session
-   │
-   ▼
-AI Evaluation
-   │
-   ▼
-Performance Report
-```
-
----
-
-## 🚀 Feature Showcase
-
-### 🎯 Resume-Based Interview Generation
-
-Generate interview questions directly from:
-
-* Skills
-* Technologies
-* Projects
-* Work Experience
-* Certifications
+* Resume-based interview creation
+* Dynamic question generation
+* Personalized interview sessions
+* Technical interview mode
+* HR interview mode
+* Adaptive questioning
 
 ### 🎤 Realistic Interview Experience
 
-Simulates real-world technical and HR interviews through AI-generated interactions.
+* Interactive interview sessions
+* Smart follow-up questions
+* Voice-enabled responses
+* Live timer tracking
+* Real-time evaluation
 
-### 🧠 AI Evaluation
+### 🧠 AI Feedback Engine
 
-Provides detailed feedback based on:
+* Performance scoring
+* Strength analysis
+* Weakness identification
+* Personalized recommendations
+* Detailed evaluation reports
 
-* Accuracy
-* Communication
-* Confidence
-* Technical Depth
-* Problem-Solving Ability
+### 📊 Analytics Dashboard
+
+* Interview history
+* Performance tracking
+* Progress monitoring
+* Historical comparisons
+* Skill-based analytics
+
+### 💳 Credit-Based SaaS System
+
+* Credit management
+* Usage tracking
+* Premium interview access
+* Razorpay integration
+
+### 🔐 Authentication & Security
+
+* Google Sign-In
+* Firebase Authentication
+* JWT Authorization
+* Protected Routes
+* Secure Session Management
+
+---
+
+## 🚀 Feature Highlights
+
+### 🎯 Resume-Based Personalization
+
+Generate interview questions directly tailored to a candidate's skills, projects, technologies, and experience.
+
+### 🧠 AI-Powered Evaluation
+
+Receive detailed interview feedback with actionable improvement suggestions.
 
 ### 📈 Progress Tracking
 
-Track improvement across multiple interview sessions through detailed analytics.
+Monitor interview performance through analytics and historical reports.
 
-### 💳 Payment Integration
+### 💳 Secure Payment Integration
 
-Secure Razorpay-powered credit purchases for premium interviews.
+Purchase credits securely using Razorpay.
 
-### 🔒 Secure Authentication
+### 🔒 Enterprise-Grade Authentication
 
-Google Sign-In using Firebase Authentication with JWT-secured APIs.
+Google Sign-In powered by Firebase Authentication with JWT-protected APIs.
+
+---
+
+## 🎯 Use Cases
+
+* Software Engineering Interview Preparation
+* Technical Mock Interviews
+* HR & Behavioral Interview Practice
+* Internship Preparation
+* Placement Preparation
+* Communication Skill Improvement
+* Resume-Based Interview Simulation
 
 ---
 
@@ -196,45 +163,45 @@ Google Sign-In using Firebase Authentication with JWT-secured APIs.
 
 ### Frontend
 
-| Technology    | Purpose             |
-| ------------- | ------------------- |
-| React.js      | UI Development      |
-| Tailwind CSS  | Styling             |
-| Framer Motion | Animations          |
-| React Router  | Routing             |
-| Axios         | API Calls           |
-| Vite          | Frontend Build Tool |
+| Technology    | Purpose                    |
+| ------------- | -------------------------- |
+| React.js      | User Interface Development |
+| Tailwind CSS  | Responsive Styling         |
+| Framer Motion | Animations                 |
+| React Router  | Client-Side Routing        |
+| Axios         | API Communication          |
+| Vite          | Development & Build Tool   |
 
 ### Backend
 
-| Technology | Purpose             |
-| ---------- | ------------------- |
-| Node.js    | Runtime Environment |
-| Express.js | REST APIs           |
-| JWT        | Authentication      |
-| Multer     | File Uploads        |
-| PDF Parser | Resume Parsing      |
+| Technology | Purpose              |
+| ---------- | -------------------- |
+| Node.js    | Runtime Environment  |
+| Express.js | REST API Development |
+| JWT        | Authentication       |
+| Multer     | File Uploads         |
+| PDF Parser | Resume Extraction    |
 
 ### Database
 
-| Technology | Purpose      |
-| ---------- | ------------ |
-| MongoDB    | Data Storage |
-| Mongoose   | ODM          |
-
-### Authentication
-
-| Technology    | Purpose       |
-| ------------- | ------------- |
-| Firebase Auth | Google Login  |
-| JWT           | Secure Access |
+| Technology | Purpose         |
+| ---------- | --------------- |
+| MongoDB    | Data Storage    |
+| Mongoose   | Schema Modeling |
 
 ### AI Services
 
-| Technology     | Purpose                        |
-| -------------- | ------------------------------ |
-| OpenRouter API | AI Interview Engine            |
-| LLM Models     | Question Generation & Feedback |
+| Technology            | Purpose               |
+| --------------------- | --------------------- |
+| OpenRouter API        | Question Generation   |
+| Large Language Models | Evaluation & Feedback |
+
+### Authentication
+
+| Technology              | Purpose               |
+| ----------------------- | --------------------- |
+| Firebase Authentication | Google Sign-In        |
+| JWT                     | Secure Backend Access |
 
 ### Payments
 
@@ -244,55 +211,78 @@ Google Sign-In using Firebase Authentication with JWT-secured APIs.
 
 ### Deployment
 
-| Technology    | Purpose          |
-| ------------- | ---------------- |
-| Render        | Backend Hosting  |
-| MongoDB Atlas | Cloud Database   |
-| Vercel        | Frontend Hosting |
+| Technology    | Purpose             |
+| ------------- | ------------------- |
+| Render        | Application Hosting |
+| MongoDB Atlas | Cloud Database      |
 
 ---
 
 ## 🏛️ System Architecture
 
 ```text
-                    ┌─────────────────┐
-                    │      User       │
-                    └────────┬────────┘
-                             │
-                             ▼
-
-                 ┌─────────────────────┐
-                 │   React Frontend    │
-                 └────────┬────────────┘
-                          │
-
-        ┌─────────────────┼─────────────────┐
-        ▼                 ▼                 ▼
-
- Firebase Auth      Razorpay        Resume Upload
-
-                          │
-                          ▼
-
-                 ┌─────────────────────┐
-                 │ Node.js + Express   │
-                 └────────┬────────────┘
-                          │
-
-          ┌───────────────┼───────────────┐
-          ▼               ▼               ▼
-
-      MongoDB       OpenRouter AI     JWT Auth
-
-                          │
-                          ▼
-
-                AI Interview Engine
-                          │
-                          ▼
-
-                 Feedback & Analytics
+User
+ │
+ ▼
+React Frontend
+ │
+ ├── Firebase Authentication
+ ├── Resume Upload
+ ├── Interview Dashboard
+ │
+ ▼
+Node.js + Express Backend
+ │
+ ├── OpenRouter API
+ ├── MongoDB Atlas
+ ├── Razorpay
+ └── JWT Authentication
+ │
+ ▼
+Resume Analysis
+Interview Generation
+AI Evaluation
+Performance Analytics
 ```
+
+---
+
+## 🧠 Engineering Challenges Solved
+
+### Resume-Aware Question Generation
+
+Designed an AI workflow capable of understanding resumes and generating context-specific interview questions.
+
+### AI Feedback Pipeline
+
+Built a system that transforms interview responses into structured evaluations and actionable recommendations.
+
+### Credit-Based Monetization
+
+Implemented a SaaS-style architecture supporting premium interview access through a credit system.
+
+### Secure Authentication
+
+Integrated Firebase Authentication with JWT-secured backend APIs and protected application routes.
+
+### Scalable Backend Design
+
+Separated controllers, services, middleware, and business logic for maintainability and scalability.
+
+---
+
+## 📊 Project Highlights
+
+* AI-Powered Interview Generation
+* Resume Intelligence Engine
+* Technical & HR Interview Modes
+* Personalized Feedback Reports
+* Firebase Authentication
+* Razorpay Payment Gateway
+* Credit-Based SaaS Architecture
+* Production Deployment
+* Responsive User Experience
+* Full-Stack MERN Architecture
 
 ---
 
@@ -303,24 +293,21 @@ AI-Interview-Platform
 │
 ├── client
 │   ├── assets
-│   ├── components
-│   ├── pages
-│   ├── hooks
-│   ├── services
-│   ├── context
-│   └── src
+│   │   ├── home.png
+│   │   ├── interview.png
+│   │   └── resume_analyse.png
+│   ├── src
+│   └── public
 │
 ├── server
+│   ├── config
 │   ├── controllers
 │   ├── middleware
 │   ├── models
 │   ├── routes
 │   ├── services
-│   ├── utils
-│   └── uploads
+│   └── utils
 │
-├── .gitignore
-├── LICENSE
 └── README.md
 ```
 
@@ -347,66 +334,49 @@ RAZORPAY_KEY_SECRET=your_razorpay_key_secret
 
 ```env
 VITE_FIREBASE_APIKEY=your_firebase_api_key
-VITE_FIREBASE_AUTHDOMAIN=your_firebase_auth_domain
-VITE_FIREBASE_PROJECTID=your_firebase_project_id
-VITE_FIREBASE_STORAGEBUCKET=your_firebase_storage_bucket
-VITE_FIREBASE_MESSAGINGSENDERID=your_sender_id
-VITE_FIREBASE_APPID=your_app_id
 
 VITE_RAZORPAY_KEY_ID=your_razorpay_key_id
-
-VITE_API_URL=http://localhost:3000/api
 ```
 
 ---
 
-## 🛠️ Installation & Setup
-
-### Clone Repository
-
-```bash
-git clone https://github.com/yourusername/AI-Interview-Platform.git
-
-cd AI-Interview-Platform
-```
+## 🛠️ Local Installation & Setup
 
 ### Install Backend Dependencies
 
 ```bash
 cd server
-
 npm install
 ```
 
 ### Install Frontend Dependencies
 
 ```bash
-cd ../client
-
+cd client
 npm install
 ```
 
-### Configure Environment Variables
-
-Create `.env` files inside both client and server directories.
-
-### Start Backend
+### Start Backend Server
 
 ```bash
 cd server
-
 npm run dev
+```
+
+Backend runs on:
+
+```text
+http://localhost:3000
 ```
 
 ### Start Frontend
 
 ```bash
 cd client
-
 npm run dev
 ```
 
-### Open Browser
+Frontend runs on:
 
 ```text
 http://localhost:5173
@@ -414,120 +384,25 @@ http://localhost:5173
 
 ---
 
-## 🧠 Engineering Challenges Solved
-
-### Resume Parsing Pipeline
-
-Built a workflow that converts uploaded PDF resumes into structured candidate profiles.
-
-### AI Question Generation
-
-Developed a prompt-engineering pipeline that generates personalized interview questions.
-
-### AI Feedback System
-
-Created structured evaluations from candidate responses.
-
-### Credit-Based SaaS Architecture
-
-Implemented interview credit tracking and premium access controls.
-
-### Authentication Layer
-
-Integrated Firebase Authentication with JWT-secured backend APIs.
-
-### Scalable Backend Structure
-
-Separated:
-
-* Controllers
-* Services
-* Middleware
-* Routes
-* Utilities
-
-for maintainability and scalability.
-
----
-
-## 📊 Project Highlights
-
-* AI-Powered Interview Generation
-* Resume-Based Question Creation
-* Technical & HR Interview Modes
-* AI Feedback Reports
-* Firebase Authentication
-* Razorpay Integration
-* SaaS Credit System
-* Cloud Deployment
-* Responsive UI
-* Full-Stack MERN Architecture
-
----
-
 ## 🎓 Skills Demonstrated
 
 * Full-Stack Development
-* React.js
-* Node.js
-* MongoDB
-* REST APIs
-* JWT Authentication
-* Firebase Authentication
 * AI Integration
 * Prompt Engineering
+* REST API Development
+* Authentication & Authorization
 * Payment Gateway Integration
-* SaaS Architecture
+* Database Design
 * Cloud Deployment
-* Modern UI/UX
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome!
-
-```bash
-Fork the repository
-
-Create your feature branch
-
-Commit your changes
-
-Push to the branch
-
-Open a Pull Request
-```
+* SaaS Product Architecture
+* Modern UI/UX Design
 
 ---
 
 ## 📄 License
-
 This project is licensed under the MIT License.
-
-```text
-MIT License
-
-Copyright (c) 2026
-
-Permission is hereby granted, free of charge,
-to any person obtaining a copy of this software
-and associated documentation files...
-```
-
----
-
-## 👨‍💻 Author
-
-**Devesh Mehra**
-
-* B.Tech (ECE), IIIT Allahabad
-* Full Stack Developer
-* Competitive Programmer
-* AI & Software Engineering Enthusiast
 
 ---
 
 <p align="center">
-⭐ If you found this project helpful, please consider giving it a star on GitHub!
 </p>
