@@ -27,7 +27,6 @@ export const analyzeResume = async (req, res) => {
       resumeText += pageText + "\n";
     }
 
-
     resumeText = resumeText
       .replace(/\s+/g, " ")
       .trim();
@@ -54,13 +53,11 @@ Return strictly JSON:
       }
     ];
 
-
     const aiResponse = await askAi(messages)
-
-    const parsed = JSON.parse(aiResponse);
+    const cleanedAiResponse = aiResponse.replace(/```json/gi, "").replace(/```/g, "").trim();
+    const parsed = JSON.parse(cleanedAiResponse);
 
     fs.unlinkSync(filepath)
-
 
     res.json({
       role: parsed.role,
@@ -171,11 +168,10 @@ Make questions based on the candidate’s role, experience,interviewMode, projec
       }
     ];
 
-
     const aiResponse = await askAi(messages)
 
     if (!aiResponse || !aiResponse.trim()) {
-           
+            
       return res.status(500).json({
         message: "AI returned empty response."
       });
@@ -256,7 +252,6 @@ export const submitAnswer = async (req, res) => {
       });
     }
 
-
     const messages = [
       {
         role: "system",
@@ -311,11 +306,11 @@ Answer: ${answer}
       }
     ];
 
-
     const aiResponse = await askAi(messages)
 
-
-    const parsed = JSON.parse(aiResponse);
+    // FIXED: Strip markdown before parsing to prevent crash
+    const cleanedAiResponse = aiResponse.replace(/```json/gi, "").replace(/```/g, "").trim();
+    const parsed = JSON.parse(cleanedAiResponse);
 
     question.answer = answer;
     question.confidence = parsed.confidence;
@@ -324,7 +319,6 @@ Answer: ${answer}
     question.score = parsed.finalScore;
     question.feedback = parsed.feedback;
     await interview.save();
-
 
     return res.status(200).json({feedback :parsed.feedback})
   } catch (error) {
@@ -418,7 +412,6 @@ export const getInterviewReport = async (req,res) => {
       return res.status(404).json({ message: "Interview not found" });
     }
 
-
     const totalQuestions = interview.questions.length;
 
     let totalConfidence = 0;
@@ -427,34 +420,4 @@ export const getInterviewReport = async (req,res) => {
 
     interview.questions.forEach((q) => {
       totalConfidence += q.confidence || 0;
-      totalCommunication += q.communication || 0;
-      totalCorrectness += q.correctness || 0;
-    });
-    const avgConfidence = totalQuestions
-      ? totalConfidence / totalQuestions
-      : 0;
-
-    const avgCommunication = totalQuestions
-      ? totalCommunication / totalQuestions
-      : 0;
-
-    const avgCorrectness = totalQuestions
-      ? totalCorrectness / totalQuestions
-      : 0;
-
-       return res.json({
-      finalScore: interview.finalScore,
-      confidence: Number(avgConfidence.toFixed(1)),
-      communication: Number(avgCommunication.toFixed(1)),
-      correctness: Number(avgCorrectness.toFixed(1)),
-      questionWiseScore: interview.questions
-    });
-
-  } catch (error) {
-    return res.status(500).json({message:`failed to find currentUser Interview report ${error}`})
-  }
-}
-
-
-
-
+      totalCommunication += q.communication ||
