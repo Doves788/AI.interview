@@ -1,161 +1,408 @@
-﻿# 🚀 AI.Interview Platform
-
-A full-stack, AI-powered interview practice platform designed to simulate professional technical and HR interview experiences using real-time AI interaction, resume-based question generation, and personalized feedback.
+# 🚀 AI Interview Platform
 
 <p align="center">
-  <img src="./client/assets/home.png" width="32%" alt="Home Page"/>
-  <img src="./client/assets/interview.png" width="32%" alt="Interview Interface"/>
-  <img src="./client/assets/resume_analyse.png" width="32%" alt="Resume Analysis"/>
+  <strong>AI-Powered Mock Interview Platform for Technical & HR Preparation</strong>
 </p>
 
 <p align="center">
-  <b>Home Page</b> • <b>Interview Interface</b> • <b>Resume Analysis</b>
+  Practice personalized technical and behavioral interviews, receive AI-generated feedback, analyze resumes, and track your preparation journey through a complete interview intelligence platform.
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/React-Frontend-blue?logo=react" />
+  <img src="https://img.shields.io/badge/Node.js-Backend-green?logo=node.js" />
+  <img src="https://img.shields.io/badge/MongoDB-Database-green?logo=mongodb" />
+  <img src="https://img.shields.io/badge/OpenRouter-AI-purple" />
+  <img src="https://img.shields.io/badge/Firebase-Authentication-orange?logo=firebase" />
+  <img src="https://img.shields.io/badge/Razorpay-Payments-blue" />
+  <img src="https://img.shields.io/badge/License-MIT-yellow" />
 </p>
 
 ---
 
-## 🌟 Core Features
+## 📸 Product Showcase
 
-- 📄 Resume Upload & Parsing
-- 🤖 AI-Powered Interview Question Generation (Powered by OpenRouter)
-- 🎯 Technical Interview Practice
-- 💼 HR Interview Practice
-- 🎤 Real-Time Interview Experience
-- 🧠 Personalized AI Feedback & Evaluation
-- 📊 Interview History & Performance Reports
-- 🪙 Credit-Based Access System
-- 💳 Razorpay Payment Integration
-- 🔐 Firebase Google Authentication
-- ✨ Responsive UI with Framer Motion Animations
-- ☁️ Full-Stack Production Deployment
+### 🏠 Landing Page
+
+<p align="center">
+  <img src="./client/assets/home.png" width="95%" alt="Landing Page"/>
+</p>
+
+The landing page introduces the platform and provides users with a seamless starting point for AI-powered interview preparation.
 
 ---
 
-## ✨ Highlights
+### 📋 Resume Analysis & Interview Setup
 
-- **Smart Resume Parsing** – Upload your resume (PDF) and let AI understand your profile.
-- **Personalized Interview Questions** – Generate questions tailored to your resume and experience.
-- **Technical & HR Interview Rounds** – Practice different interview formats in a realistic environment.
-- **AI-Powered Feedback** – Receive detailed evaluations and actionable improvement suggestions.
-- **Interview Analytics** – Track progress through interview history and detailed reports.
-- **Secure Authentication** – Seamless Google Sign-In with Firebase Authentication.
-- **Credit-Based Access System** – Complete SaaS-style credit management.
-- **Secure Payments** – Purchase credits securely through Razorpay.
-- **Modern UI/UX** – Smooth and responsive user experience powered by Framer Motion.
-- **Scalable Deployment** – Production-ready architecture deployed on Render.
+<p align="center">
+  <img src="./client/assets/resume_analyse.png" width="95%" alt="Resume Analysis"/>
+</p>
+
+The platform parses uploaded resumes, extracts projects, skills, and experience, and generates personalized interview questions tailored to the candidate's profile.
+
+---
+
+### 🎤 AI Interview Session
+
+<p align="center">
+  <img src="./client/assets/interview.png" width="95%" alt="Interview Session"/>
+</p>
+
+The interview interface provides a realistic mock interview experience with dynamic questioning, voice interaction, timers, and performance evaluation.
+
+---
+
+## 🎯 Overview
+
+AI Interview Platform is a full-stack SaaS application designed to simulate real-world technical and HR interviews using Artificial Intelligence.
+
+Unlike traditional interview preparation tools that rely on static question banks, this platform analyzes a candidate's resume and dynamically generates interview questions based on skills, projects, technologies, and experience.
+
+The platform combines AI-powered question generation, resume intelligence, secure authentication, payment integration, and performance analytics into a complete interview preparation ecosystem.
+
+---
+
+## ✨ Key Features
+
+### 📄 Resume Intelligence
+
+* Upload resumes in PDF format
+* Automated resume parsing
+* Skill extraction and classification
+* Experience and project analysis
+* Candidate profile understanding
+* Context-aware interview generation
+
+### 🤖 AI-Powered Interview Generation
+
+* Resume-based interview creation
+* Dynamic question generation
+* Personalized interview sessions
+* Technical interview mode
+* HR interview mode
+* Adaptive questioning
+
+### 🎤 Realistic Interview Experience
+
+* Interactive interview sessions
+* Smart follow-up questions
+* Voice-enabled responses
+* Live timer tracking
+* Real-time evaluation
+
+### 🧠 AI Feedback Engine
+
+* Performance scoring
+* Strength analysis
+* Weakness identification
+* Personalized recommendations
+* Detailed evaluation reports
+
+### 📊 Analytics Dashboard
+
+* Interview history
+* Performance tracking
+* Progress monitoring
+* Historical comparisons
+* Skill-based analytics
+
+### 💳 Credit-Based SaaS System
+
+* Credit management
+* Usage tracking
+* Premium interview access
+* Razorpay integration
+
+### 🔐 Authentication & Security
+
+* Google Sign-In
+* Firebase Authentication
+* JWT Authorization
+* Protected Routes
+* Secure Session Management
+
+---
+
+## 🚀 Feature Highlights
+
+### 🎯 Resume-Based Personalization
+
+Generate interview questions directly tailored to a candidate's skills, projects, technologies, and experience.
+
+### 🧠 AI-Powered Evaluation
+
+Receive detailed interview feedback with actionable improvement suggestions.
+
+### 📈 Progress Tracking
+
+Monitor interview performance through analytics and historical reports.
+
+### 💳 Secure Payment Integration
+
+Purchase credits securely using Razorpay.
+
+### 🔒 Enterprise-Grade Authentication
+
+Google Sign-In powered by Firebase Authentication with JWT-protected APIs.
 
 ---
 
 ## 🎯 Use Cases
-- Prepare for Software Engineering Interviews
-- Practice Technical Interview Rounds
-- Practice HR & Behavioral Interviews
-- Improve Communication & Interview Skills
-- Receive AI-Generated Performance Insights
-- Track Interview Preparation Progress
-- Simulate Real-World Interview Experiences
+
+* Software Engineering Interview Preparation
+* Technical Mock Interviews
+* HR & Behavioral Interview Practice
+* Internship Preparation
+* Placement Preparation
+* Communication Skill Improvement
+* Resume-Based Interview Simulation
+
 ---
 
-## 💻 Tech Stack
+## 🏗️ Tech Stack
+
 ### Frontend
-- React.js
-- Tailwind CSS
-- Framer Motion
+
+| Technology    | Purpose                    |
+| ------------- | -------------------------- |
+| React.js      | User Interface Development |
+| Tailwind CSS  | Responsive Styling         |
+| Framer Motion | Animations                 |
+| React Router  | Client-Side Routing        |
+| Axios         | API Communication          |
+| Vite          | Development & Build Tool   |
 
 ### Backend
-- Node.js
-- Express.js
+
+| Technology | Purpose              |
+| ---------- | -------------------- |
+| Node.js    | Runtime Environment  |
+| Express.js | REST API Development |
+| JWT        | Authentication       |
+| Multer     | File Uploads         |
+| PDF Parser | Resume Extraction    |
 
 ### Database
-- MongoDB
 
-### Authentication
-- Firebase Authentication (Google Sign-In)
+| Technology | Purpose         |
+| ---------- | --------------- |
+| MongoDB    | Data Storage    |
+| Mongoose   | Schema Modeling |
 
 ### AI Services
-- OpenRouter API
+
+| Technology            | Purpose               |
+| --------------------- | --------------------- |
+| OpenRouter API        | Question Generation   |
+| Large Language Models | Evaluation & Feedback |
+
+### Authentication
+
+| Technology              | Purpose               |
+| ----------------------- | --------------------- |
+| Firebase Authentication | Google Sign-In        |
+| JWT                     | Secure Backend Access |
 
 ### Payments
-- Razorpay
+
+| Technology | Purpose            |
+| ---------- | ------------------ |
+| Razorpay   | Payment Processing |
 
 ### Deployment
-- Render
+
+| Technology    | Purpose             |
+| ------------- | ------------------- |
+| Render        | Application Hosting |
+| MongoDB Atlas | Cloud Database      |
 
 ---
 
-## 📸 Additional Screenshots
+## 🏛️ System Architecture
 
-### 🎤 Interview Interface
-
-![Interview Interface](client/assets/interview.png)
-
-### 📄 Resume Analysis
-
-![Resume Analysis](client/assets/resume_analyse.png)
+```text
+User
+ │
+ ▼
+React Frontend
+ │
+ ├── Firebase Authentication
+ ├── Resume Upload
+ ├── Interview Dashboard
+ │
+ ▼
+Node.js + Express Backend
+ │
+ ├── OpenRouter API
+ ├── MongoDB Atlas
+ ├── Razorpay
+ └── JWT Authentication
+ │
+ ▼
+Resume Analysis
+Interview Generation
+AI Evaluation
+Performance Analytics
+```
 
 ---
 
-## ⚙️ Environment Variables
+## 🧠 Engineering Challenges Solved
 
-### Server (`server/.env`)
+### Resume-Aware Question Generation
 
-```env
-PORT=3000
-MONGODB_URL=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret
-OPENROUTER_API_KEY=your_openrouter_api_key
-RAZORPAY_KEY_ID=your_razorpay_key_id
-RAZORPAY_KEY_SECRET=your_razorpay_key_secret
-```
+Designed an AI workflow capable of understanding resumes and generating context-specific interview questions.
 
-### Client (`client/.env`)
-```env
-VITE_FIREBASE_APIKEY=your_firebase_api_key
-VITE_RAZORPAY_KEY_ID=your_razorpay_key_id
-```
+### AI Feedback Pipeline
+
+Built a system that transforms interview responses into structured evaluations and actionable recommendations.
+
+### Credit-Based Monetization
+
+Implemented a SaaS-style architecture supporting premium interview access through a credit system.
+
+### Secure Authentication
+
+Integrated Firebase Authentication with JWT-secured backend APIs and protected application routes.
+
+### Scalable Backend Design
+
+Separated controllers, services, middleware, and business logic for maintainability and scalability.
+
+---
+
+## 📊 Project Highlights
+
+* AI-Powered Interview Generation
+* Resume Intelligence Engine
+* Technical & HR Interview Modes
+* Personalized Feedback Reports
+* Firebase Authentication
+* Razorpay Payment Gateway
+* Credit-Based SaaS Architecture
+* Production Deployment
+* Responsive User Experience
+* Full-Stack MERN Architecture
 
 ---
 
 ## 📂 Project Structure
 
 ```text
-AI.Interview/
+AI-Interview-Platform
 │
-├── client/
-│   ├── assets/
+├── client
+│   ├── assets
 │   │   ├── home.png
 │   │   ├── interview.png
 │   │   └── resume_analyse.png
-│   ├── src/
-│   └── public/
+│   ├── src
+│   └── public
 │
-├── server/
-│   ├── controllers/
-│   ├── routes/
-│   ├── models/
-│   ├── middleware/
-│   └── utils/
+├── server
+│   ├── config
+│   ├── controllers
+│   ├── middleware
+│   ├── models
+│   ├── routes
+│   ├── services
+│   └── utils
 │
 └── README.md
 ```
 
 ---
 
-## 🚀 Running the Project
+## ⚙️ Environment Variables
 
-### Backend
+### Server (.env)
+
+```env
+PORT=3000
+
+MONGODB_URL=your_mongodb_connection_string
+
+JWT_SECRET=your_jwt_secret
+
+OPENROUTER_API_KEY=your_openrouter_api_key
+
+RAZORPAY_KEY_ID=your_razorpay_key_id
+RAZORPAY_KEY_SECRET=your_razorpay_key_secret
+```
+
+### Client (.env)
+
+```env
+VITE_FIREBASE_APIKEY=your_firebase_api_key
+
+VITE_RAZORPAY_KEY_ID=your_razorpay_key_id
+```
+
+---
+
+## 🛠️ Local Installation & Setup
+
+### Install Backend Dependencies
 
 ```bash
 cd server
 npm install
-npm run dev
 ```
 
-### Frontend
+### Install Frontend Dependencies
 
 ```bash
 cd client
 npm install
+```
+
+### Start Backend Server
+
+```bash
+cd server
 npm run dev
 ```
 
+Backend runs on:
+
+```text
+http://localhost:3000
+```
+
+### Start Frontend
+
+```bash
+cd client
+npm run dev
+```
+
+Frontend runs on:
+
+```text
+http://localhost:5173
+```
+
+---
+
+## 🎓 Skills Demonstrated
+
+* Full-Stack Development
+* AI Integration
+* Prompt Engineering
+* REST API Development
+* Authentication & Authorization
+* Payment Gateway Integration
+* Database Design
+* Cloud Deployment
+* SaaS Product Architecture
+* Modern UI/UX Design
+
+---
+
+## 📄 License
+This project is licensed under the MIT License.
+
+---
+
+<p align="center">
+</p>
