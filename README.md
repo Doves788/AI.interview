@@ -52,6 +52,16 @@ The interview interface provides a realistic mock interview experience with dyna
 
 ---
 
+### 📊 Interview Result Analysis
+
+<p align="center">
+  <img src="./client/assets/analysis.png" width="95%" alt="Interview Result Analysis"/>
+</p>
+
+The Interview Result Analysis dashboard delivers comprehensive AI-generated feedback, including performance scores, strengths and weaknesses assessment, response evaluation, and personalized recommendations to help candidates improve their interview readiness.
+
+---
+
 ## 🎯 Overview
 
 AI Interview Platform is a full-stack SaaS application designed to simulate real-world technical and HR interviews using Artificial Intelligence.
