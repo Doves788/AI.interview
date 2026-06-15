@@ -10,9 +10,13 @@ import interviewRouter from "./routes/interview.route.js"
 import paymentRouter from "./routes/payment.route.js"
 
 const app = express()
+
 app.use(cors({
-    origin:"http://localhost:5173",
-    credentials:true
+    origin: [
+        "http://localhost:5173",
+        "https://ai-interview-xlob.vercel.app"
+    ],
+    credentials: true
 }))
 
 app.use(express.json())
