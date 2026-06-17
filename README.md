@@ -108,6 +108,9 @@ The platform combines AI-powered question generation, resume intelligence, secur
 * Personalized recommendations
 * Detailed evaluation reports
 
+git add .
+git commit -m "Nudge Vercel to rebuild"
+git push origin main
 ### 📊 Analytics Dashboard
 
 * Interview history
