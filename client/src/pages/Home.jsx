@@ -38,7 +38,7 @@ function Home() {
           <div className='flex justify-center mb-6'>
             <div className='bg-gray-100 text-gray-600 text-sm px-4 py-2 rounded-full flex items-center gap-2'>
               <HiSparkles size={16} className="bg-green-50 text-green-600" />
-              AI Powered Smart Interview Platform
+              HireNode.ai Smart Interview Platform
             </div>
           </div>
 
@@ -48,10 +48,10 @@ function Home() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
               className='text-4xl md:text-6xl font-semibold leading-tight max-w-4xl mx-auto text-white'>
-              Interview Practise with
+              Interview Practice with
               <span className='relative inline-block ml-3'>
                 <span className='bg-[#1e3a8a] text-white px-5 py-1 rounded-full'>
-                  AI Intelligence
+                  HireNode.ai
                 </span>
               </span>
             </motion.h1>

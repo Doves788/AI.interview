@@ -57,11 +57,10 @@ function Step3Report({ report }) {
     // ... (PDF logic remains the same)
     const doc = new jsPDF("p", "mm", "a4");
     // ... (rest of the PDF generation code)
-    doc.save("AI_Interview_Report.pdf");
+    doc.save("HireNode_Interview_Report.pdf");
   };
 
   return (
-    // Changed background to bg-sky-50
     <div className='min-h-screen bg-sky-50 px-4 sm:px-6 lg:px-10 py-8'>
       <div className='mb-8 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4'>
         <div className='md:mb-10 w-full flex items-start gap-4 flex-wrap'>
