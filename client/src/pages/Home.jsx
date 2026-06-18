@@ -37,7 +37,7 @@ function Home() {
 
           <div className='flex justify-center mb-6'>
             <div className='bg-gray-100 text-gray-600 text-sm px-4 py-2 rounded-full flex items-center gap-2'>
-              <HiSparkles size={16} className="bg-green-50 text-green-600" />
+              <HiSparkles size={16} className="bg-blue-50 text-blue-600" />
               HireNode.ai Smart Interview Platform
             </div>
           </div>
@@ -125,18 +125,18 @@ function Home() {
                   whileHover={{ rotate: 0, scale: 1.06 }}
 
                   className={`
-        relative bg-white rounded-3xl border-2 border-green-100 
-        hover:border-green-500 p-10 w-80 max-w-[90%] shadow-md hover:shadow-2xl 
+        relative bg-white rounded-3xl border-2 border-blue-100 
+        hover:border-blue-500 p-10 w-80 max-w-[90%] shadow-md hover:shadow-2xl 
         transition-all duration-300
         ${index === 0 ? "rotate-[-4deg]" : ""}
         ${index === 1 ? "rotate-[3deg] md:-mt-6 shadow-xl" : ""}
         ${index === 2 ? "rotate-[-3deg]" : ""}
-      `}>
+        `}>
 
-                  <div className='absolute -top-8 left-1/2 -translate-x-1/2 bg-white border-2 border-green-500 text-green-600 w-16 h-16 rounded-2xl flex items-center justify-center shadow-lg'>
+                  <div className='absolute -top-8 left-1/2 -translate-x-1/2 bg-white border-2 border-blue-500 text-blue-600 w-16 h-16 rounded-2xl flex items-center justify-center shadow-lg'>
                     {item.icon}</div>
                   <div className='pt-10 text-center'>
-                    <div className='text-xs text-green-600 font-semibold mb-2 tracking-wider'>{item.step}</div>
+                    <div className='text-xs text-blue-600 font-semibold mb-2 tracking-wider'>{item.step}</div>
                     <h3 className='font-semibold mb-3 text-lg text-black'>{item.title}</h3>
                     <p className='text-sm text-gray-500 leading-relaxed'>{item.desc}</p>
                   </div>
@@ -155,7 +155,7 @@ function Home() {
               transition={{ duration: 0.6 }}
               className='text-4xl font-semibold text-center mb-16 text-white'>
               Advanced AI{" "}
-              <span className="text-green-400">Capabilities</span>
+              <span className="text-blue-400">Capabilities</span>
 
             </motion.h2>
 
@@ -199,7 +199,7 @@ function Home() {
                       </div>
 
                       <div className='w-full md:w-1/2'>
-                        <div className='bg-green-50 text-green-600 w-12 h-12 rounded-xl flex items-center justify-center mb-6'>
+                        <div className='bg-blue-50 text-blue-600 w-12 h-12 rounded-xl flex items-center justify-center mb-6'>
                           {item.icon}
                         </div>
                         <h3 className='font-semibold mb-3 text-xl text-black'>{item.title}</h3>
@@ -224,7 +224,7 @@ function Home() {
               transition={{ duration: 0.6 }}
               className='text-4xl font-semibold text-center mb-16 text-white'>
               Multiple Interview{" "}
-              <span className="text-green-400">Modes</span>
+              <span className="text-blue-400">Modes</span>
 
             </motion.h2>
 
@@ -271,7 +271,6 @@ function Home() {
                         </p>
                       </div>
 
-                      {/* RIGHT IMAGE */}
                       <div className="w-1/2 flex justify-end">
                         <img
                           src={mode.img}
@@ -279,9 +278,6 @@ function Home() {
                           className="w-28 h-28 object-contain"
                         />
                       </div>
-
-
-
                     </div>
 
 
@@ -298,7 +294,7 @@ function Home() {
 
       {showAuth && <AuthModel onClose={() => setShowAuth(false)} />}
 
-        <Footer/>
+      <Footer />
 
     </div>
   )

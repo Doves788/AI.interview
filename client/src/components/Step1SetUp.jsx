@@ -72,7 +72,6 @@ function Step1SetUp({ onStart }) {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.6 }}
-            // Changed background to dark blue here
             className='min-h-screen flex items-center justify-center bg-[#0a192f] px-4 py-10'>
 
             <div className='w-full max-w-6xl bg-white rounded-3xl shadow-2xl grid md:grid-cols-2 overflow-hidden'>
