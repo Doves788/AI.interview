@@ -21,16 +21,23 @@ analyze resumes, and track your preparation journey through a complete interview
 
 <br/>
 
-<img src="./client/assets/home.png" width="90%" alt="HireNode.ai Landing Page"/>
+<table>
+<tr>
+<td align="center">
+<img src="./client/assets/home.png" width="100%" alt="HireNode.ai Landing Page"/>
+</td>
 
+<td align="center">
+<img src="./client/assets/plans.png" width="100%" alt="Subscription Plans"/>
+</td>
 
-<img src="./client/assets/plans.png" width="95%" alt="Subscription Plans"/>
-
-
-<img src="./client/assets/resume_analyse.png" width="95%" alt="Resume Analysis"/>
+<td align="center">
+<img src="./client/assets/resume_analyse.png" width="100%" alt="Resume Analysis"/>
+</td>
+</tr>
+</table>
 
 </div>
-
 ---
 
 ## 📑 Table of Contents
