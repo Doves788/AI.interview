@@ -22,6 +22,8 @@ analyze resumes, and track your preparation journey through a complete interview
 <br/>
 
 <img src="./client/assets/home.png" width="90%" alt="HireNode.ai Landing Page"/>
+<img src="./client/assets/plans.png" width="95%" alt="Subscription Plans"/>
+<img src="./client/assets/resume_analyse.png" width="95%" alt="Resume Analysis"/>
 
 </div>
 
@@ -56,13 +58,9 @@ The platform combines AI-powered question generation, resume intelligence, secur
 
 ---
 
-## 📸 Product Showcase
+## 📸 Product Features
 
 ### 📋 Resume Analysis & Interview Setup
-
-<p align="center">
-  <img src="./client/assets/resume_analyse.png" width="95%" alt="Resume Analysis"/>
-</p>
 
 The platform parses uploaded resumes, extracts projects, skills, and experience, and generates personalized interview questions tailored to the candidate's profile.
 
@@ -70,29 +68,17 @@ The platform parses uploaded resumes, extracts projects, skills, and experience,
 
 ### 💳 Subscription Plans
 
-<p align="center">
-  <img src="./client/assets/plans.png" width="95%" alt="Subscription Plans"/>
-</p>
-
 HireNode.ai offers flexible credit-based subscription plans to suit your preparation needs, allowing you to unlock premium interview sessions.
 
 <br>
 
 ### 🎤 AI Interview Session
 
-<p align="center">
-  <img src="./client/assets/interview.png" width="95%" alt="Interview Session"/>
-</p>
-
 The interview interface provides a realistic mock interview experience with dynamic questioning, voice interaction, timers, and performance evaluation.
 
 <br>
 
 ### 📊 Interview Result Analysis
-
-<p align="center">
-  <img src="./client/assets/analysis.png" width="95%" alt="Interview Result Analysis"/>
-</p>
 
 The Interview Result Analysis dashboard delivers comprehensive AI-generated feedback, including performance scores, strengths and weaknesses assessment, response evaluation, and personalized recommendations to help candidates improve their interview readiness.
 
